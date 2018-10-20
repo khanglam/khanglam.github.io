@@ -1,57 +1,62 @@
 body{
-	background-image: url("fb profile.jpg");
-	background-repeat: no-repeat;
-	background-size: 100% 100%;
+	margin:0;
+	color:#333;
+	overflow-x:hidden;
 }
 
-a{
-	text-decoration:none;
-	color: blue;
+.v-header{
+	height:100vh;
+	display:flex;
+	align-items:center;
+	color:#fff;
 }
 
-h1, h2, h3{
-	margin: 0;
-} 
-
-/*div {
-	border-style: dotted;
-} */
-
-#container {
-	width: auto;
-	height: 800px;
-	margin-left: auto;
-	margin-right: auto;
-	
-
-}
-#header {
+.container{
+	max-width:960px;
+	padding-left:0;
+	padding-right:0;
+	margin:0;
 	text-align: center;
 }
 
-#content {
-	padding: 10px;
+.fullscreen-video-wrap {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100vh;
+	overflow:hidden;
+	z-index:0;
 }
 
-#nav {
-	width: 180px;
-	float: left;
+.fullscreen-video-wrap video{
+	min-width:100%;
+	min-height:100%;
 }
 
-#nav .selected{
-	font-weight: bold;
+.overlay{
+	height:100vh;
+	width:100vw;
+	position:absolute;
+	top:0;
+	left:0;
+	background:#225470;
+	z-index:1;
+	opacity: 0.5;
 }
 
-#nav ul{
-	list-style-type: none;
-	padding: 0;
+.content{
+	z-index:2;
+	text-align:center;
 }
 
-#main {
-	width: 800px;
-	float: left;
+.content h1{
+	font-size:50px;
+	margin-bottom:0;
 }
 
-#footer {
-	clear: both;
+.content p{
+	font-size:1.5rem;
+	display:block;
+	padding-bottom:2rem;
 }
