@@ -1,0 +1,29 @@
+#container {
+	width: 800px;
+	height: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url("fb profile.jpg");
+	background-size: 100% 100%;
+}
+#header {
+	text-align: center;
+}
+
+#content {
+	padding: 10px;
+}
+
+#nav {
+	width: 180px;
+	float: left;
+}
+
+#main {
+	width: 600px;
+	float: left;
+}
+
+#footer {
+	clear: both;
+}
