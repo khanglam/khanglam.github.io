@@ -19,9 +19,10 @@ h1, h2, h3{
 
 #container {
 	width: auto;
-	height: 1200px;
+	height: 800px;
 	margin-left: auto;
 	margin-right: auto;
+	
 
 }
 #header {
@@ -47,7 +48,7 @@ h1, h2, h3{
 }
 
 #main {
-	width: 600px;
+	width: 800px;
 	float: left;
 }
 
