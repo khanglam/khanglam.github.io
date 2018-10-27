@@ -1,4 +1,4 @@
-/*Version 1.0 Ready to move onto Javascript*/
+/*Version 1.1 */
 
 body{
     width:100vw;
@@ -12,7 +12,6 @@ body{
     text-align:center;
 }
 
-
 .header{
     position: relative;
     display: flex;
@@ -22,9 +21,9 @@ body{
     left:0;
     width:100%;
     //border:5px solid darkgreen;
-    height:7vh;
-    background: black;
-    opacity: 0.5;
+    height:6vh;
+    background: #e2e2e2;
+    //opacity: 0.5;
 }
 
 .header h1 {
@@ -39,8 +38,8 @@ body{
 	position:relative;
     margin:0 auto;
 	//top:7vh;
-	left:0;
-    //border:5px solid red;
+	//left:0;
+
     display: inline-block; /*a Div is automatically set to display:block,
                             and a block display is automatically width: 100% of parent's div*/
     //float: left;
@@ -50,6 +49,42 @@ body{
 	overflow:hidden;
 	z-index:0;
 }
+#nav {
+    position: absolute;
+    width:100%;
+    top:0;
+    //border:5px solid red;
+    //display:flex;
+}
+
+#nav ul{
+    display:flex;
+    justify-content:flex-end;
+    list-style: none;
+    padding:0;
+    margin:0;
+    margin-top:1vh;
+    //border:5px solid red;
+    font-size:20px;
+    z-index: 3;
+}
+
+#nav li{
+    //border:5px solid blue;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.resume{
+    padding-right:2%;
+}
+
+#nav a{
+
+    color:white;
+    text-decoration: none;
+}
+
 
 /*.fullscreen-video-wrap video{
     //position:absolute;
@@ -59,7 +94,8 @@ body{
     left:0;
     //max-width:100%;
     //max-height:100%;
-}*/
+}
+
 .video{
     position:relative;
     padding:0;
@@ -70,7 +106,8 @@ body{
     opacity:0.5;
     //max-width:1900px;
     //max-height:1900px;
-}
+} */
+
 video{
     position:relative;
     display:block;
@@ -79,9 +116,10 @@ video{
     padding:0;
     width:100vw;
     //height:100vh;
-    max-width: 2000px;
-    top:0;
-    left: 0;
+    max-width: 3000px;
+    //max-height: 1200px;
+    //top:0;
+    //left: 0;
 
     //transform: scaleY(0.5);
 
@@ -90,7 +128,7 @@ video{
 
 .overlay{
     position:absolute;
-    top:7vh;
+    top:6vh;
     left:0;
     display:flex;
     align-items:center;
@@ -98,10 +136,11 @@ video{
     //border:5px solid blueviolet;
 	height:100%;
 	width:100%;
-	background:#225470;
+	//background:#225470;
+    background:black;
     //text-align: center;
 	z-index:1;
-	opacity: 0.5;
+	opacity: 0.7;
 }
 
 .content{
@@ -123,6 +162,7 @@ video{
 
 .content p{
     margin:0;
+    color: white;
 	font-size:30px;
 	display:block;
 
