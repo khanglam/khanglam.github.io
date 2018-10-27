@@ -4,13 +4,15 @@
 	<head>
 		<title>Khang Lam</title>
 		<link rel="stylesheet" type="text/css" href="style.css" />
+
+		<script src="nav_hover_effect.js"></script>
 	</head>
 
 	<body>
 		<!--<header v-header container> -->
 
 		<div class="container">
-			<div class="header">  </div>
+			<div class="header"></div>
 				<video autoplay loop muted>
 					<source src="typing.mov" type="video/mp4">
 				</video>
@@ -18,10 +20,29 @@
 			<div class="overlay">
 				<div id="nav">
 					<ul>
-						<li class="home"><a href="index.html">HOME</a></li>
-						<li class="about"><a class="selected" href="">ABOUT</a></li>
-						<li class="contact"><a href="">CONTACT</a></li>
-						<li class="resume"><a href="resume.html">RESUME</a></li>
+						<li>
+							<a style="color:white;"  id="home"
+							   onmouseover="hoverEffect(this)" onmouseleave="hoverEffect(this)"
+							   href="index.html">HOME
+							</a>
+						</li>
+						<li>
+							<a style="color:white;" id="about"
+							   onmouseover="hoverEffect(this)" onmouseleave="hoverEffect(this)"
+							   href="">ABOUT
+							</a>
+						</li>
+						<li>
+							<a style="color:white;" id="contact"
+							   onmouseover="hoverEffect(this)" onmouseleave="hoverEffect(this)"
+							   href="">CONTACT</a>
+						</li>
+						<li class="LastItem">
+							<a style="color:white;" id="resume"
+							   onmouseover="hoverEffect(this)" onmouseleave="hoverEffect(this)"
+							   href="resume.html">RESUME
+							</a>
+						</li>
 					</ul>
 				</div>
 
@@ -36,4 +57,5 @@
 		</div>
 
 	</body>
+
 </html>
