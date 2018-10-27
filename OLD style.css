@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*body{
 	background-image: url("fb profile.jpg");
 	background-repeat: no-repeat;
@@ -73,3 +74,80 @@ h1, h2, h3{
 #footer {
 	clear: both;
 }
+=======
+/*body{
+	background-image: url("fb profile.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	
+}*/
+
+a{
+	text-decoration:none;
+	color: blue;
+}
+
+h1, h2, h3{
+	margin: 0;
+} 
+
+/*div {
+	border-style: dotted;
+} */
+
+#container {
+	width: auto;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+.backgroundvid {
+	position: relative;
+	width:100%;
+	height: 100vh;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	overflow:hidden;
+	z-index: -1;
+}
+
+#header {
+	text-align: center;
+}
+
+#content {
+	padding: 10px;
+	z-index: 1;
+}
+
+#nav {
+	width: auto;
+	float: right;
+	margin-right: 100px;
+}
+
+#nav .selected{
+	font-weight: bold;
+}
+
+#nav ul{
+	list-style-type: none;
+	padding: 0;
+}
+
+#nav li{
+	display:inline;
+	padding: 5px;
+}
+
+#main {
+	width: auto;
+	float: left;
+}
+
+#footer {
+	clear: both;
+}
+>>>>>>> 5ef6a57f586db9688a8df3c6dba7cbfd7cec7adb

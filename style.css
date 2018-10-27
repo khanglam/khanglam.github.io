@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{
 	margin:0;
 	color:#333;
@@ -110,3 +111,117 @@ video{
 	display:block;
 	padding-bottom:2rem;
 }
+=======
+body{
+	margin:0;
+	color:#333;
+	overflow-x:hidden;
+}
+
+/*.v-header{
+	position:absolute;
+	top:0;
+	left:0;
+	height:100vh;
+	display:flex;
+	align-items:center;
+	color:#fff;
+}
+
+.container{
+	position:absolute;
+	top:0;
+	left:0;
+	max-width:960px;
+	padding-left:0;
+	padding-right:0;
+	margin:0;
+	text-align: center;
+}*/
+
+#header{
+    position: absolute;
+    height:7vh;
+    width: 100vw;
+    background: grey;
+    opacity: 0.5%;
+}
+
+.container {
+	position:absolute;
+    align-items: center;
+	top:0;
+	left:0;
+	width: 100vw;
+	height: 100vh;
+    margin-bottom: 0;
+	overflow:hidden;
+	z-index:0;
+}
+
+/*.fullscreen-video-wrap video{
+    //position:absolute;
+    width: 100vw;
+    height: 100vh;
+    top:0;
+    left:0;
+    //max-width:100%;
+    //max-height:100%;
+}*/
+.video{
+    position:absolute;
+    width: 100vw;
+    height: 100vh;
+    top:0;
+    left:0;
+    //max-width:1900px;
+    //max-height:1900px;
+}
+video{
+    //position:absolute;
+    width: 100vw;
+    height: 100vh;
+    //max-width:1900px;
+    //max-height:1900px;
+    top:0;
+    left:0;
+}
+
+.overlay{
+    position:absolute;
+    top:7vh;
+    left:0;
+
+	height:100%;
+	width:100%;
+    //max-width:1900px;
+    //max-height:1900px;
+	background:#225470;
+
+	z-index:1;
+	opacity: 0.5;
+}
+
+.content{
+    position:absolute;
+    //min-height:auto;
+    //min-width:auto;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%, -50%); /*This is to ensure the div remains centered ( compensated Width and Height) */
+	z-index:2;
+	text-align:center;
+}
+
+.content h1{
+	font-size:50px;
+	margin:0;
+
+}
+
+.content p{
+	font-size:1.5rem;
+	display:block;
+	padding-bottom:2rem;
+}
+>>>>>>> 5ef6a57f586db9688a8df3c6dba7cbfd7cec7adb
