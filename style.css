@@ -1,5 +1,19 @@
 /*Version 1.1 */
 
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('Mark Simonson - Proxima Nova Alt Regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'proxima_nova_altbold';
+    src:url('Mark Simonson - Proxima Nova Alt Bold-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 body{
     width:100vw;
     height: 100vh;
@@ -8,8 +22,13 @@ body{
     top:0;
     left:0;
     position:relative;
-	overflow-x:hidden;
+    //display:flex;
+    //align-items:center;     /*middle vertically*/
     text-align:center;
+    justify-content:center; /*middle horizontally*/
+    //flex-grow:unset;
+    overflow-x:hidden;
+
 }
 
 .header{
@@ -34,18 +53,27 @@ body{
     //border:5px solid white;
 }
 
-.container {
+.full-container{
+    position:relative;
+    display:inline-block;
+    //border:5px solid darkgreen;
+    max-width:3000px;
+    //flex-wrap: wrap;
+}
+
+.video-container {
 	position:relative;
     margin:0 auto;
+    padding:0;
 	//top:7vh;
 	//left:0;
-
-    display: inline-block; /*a Div is automatically set to display:block,
-                            and a block display is automatically width: 100% of parent's div*/
+    //border:5px solid red;
+    display: block; /*a Div is automatically set to display:block,
+                           and a block display is automatically width: 100% of parent's div*/
     //float: left;
     //width: 100%;
     height: auto;
-
+    max-height:1800px;
 	overflow:hidden;
 	z-index:0;
 }
@@ -60,10 +88,11 @@ body{
 #nav ul{
     display:flex;
     justify-content:flex-end;
+    width:100%;
     list-style: none;
     padding:0;
-    margin:0;
-    margin-top:1vh;
+    margin-top:5vh;
+    margin-right:3vw;
     //border:5px solid red;
     font-size:20px;
     z-index: 3;
@@ -121,7 +150,8 @@ video{
     //max-height: 1200px;
     //top:0;
     //left: 0;
-
+    background:black;
+    opacity: 0.7;
     //transform: scaleY(0.5);
 
 
@@ -139,33 +169,156 @@ video{
 	width:100%;
 	//background:#225470;
     background:black;
+    opacity: 0.7;
     //text-align: center;
 	z-index:1;
-	opacity: 0.7;
+
 }
 
-.content{
+.welcome-text{
     position:relative;
+    font-family:Garamond, Georgia, serif;
     //transform: translate(-50%, 0); /*This is to ensure the div remains centered ( compensated Width and Height) */
 	z-index:2;
 }
 
-.content h1{
+.welcome-text h1{
+    font-family: 'Proxima Nova';
     display: flex;
     align-items: center;
     justify-content: center;
     //border:5px solid black;
     color: white;
-	font-size:50px;
+	font-size:85px;
 	margin:0;
-
 }
 
-.content p{
+.welcome-text p{
+    font-family:Garamond, Georgia, serif;
+    font-style:italic;
     margin:0;
     color: white;
 	font-size:30px;
 	display:block;
-
 }
 
+.about-me {
+    position: relative;
+    display:inline-block;
+    width:100vw;
+    max-width:3000px;
+    top:0;
+    padding:0;
+    margin:0;
+    text-align:center;
+    //border:5px solid indianred;
+    background-color: #d6d6d6;
+}
+
+.about-me h1{
+    font-family:Garamond, Georgia, serif;
+    font-size:50px;
+    font-weight:bold;
+    margin:20px;
+    //display:inline-block;
+    //border:5px solid red;
+}
+.about-me p {
+    font-family: 'Proxima Nova';
+    font-size: 30px;
+    font-weight: 300;
+    margin: 0 20px 40px;
+    max-width:85vw;
+    //border:5px solid black;
+    display:inline-block;
+
+}
+.skills-accomplishment {
+    position: relative;
+    display:inline-block;
+    width:100vw;
+    max-width:3000px;
+    top:0;
+    padding:0;
+    margin:0;
+    text-align:center;
+    background-color: whitesmoke;
+}
+
+
+.skills-accomplishment ul{
+    font-family: 'Proxima Nova';
+    padding:0;
+    font-size: 23px;
+    font-weight: 300;
+    display:flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+    max-height:90px;
+    //border:5px solid red;
+    justify-content:center;
+    //margin-left:2vw;
+    width:100%;
+    list-style: none;
+}
+
+.skills-accomplishment li{
+    text-align: center;
+    max-width: 50%;
+    //border:5px solid blue;
+    margin-left: 0;
+    margin-right: 0;
+}
+.projects{
+    background: #d6d6d6;
+    display:inline-block;
+    width:100%;
+}
+
+.projects h1{
+    font-family:Garamond, Georgia, serif;
+    font-size:50px;
+    font-weight:bold;
+    margin:20px;
+}
+
+.projects ul{
+    list-style: none;
+    display:flex;
+    justify-content:center;
+    padding:0;
+
+}
+.projects .image-resize{
+    width: 480px;
+    height: 380px;
+
+
+}
+.projects li{
+    position:relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    //border:5px solid blue;
+    padding:1%;
+    width:480px;
+    margin:0;
+    z-index:0;
+}
+.projects h2{
+    font-family:Garamond, Georgia, serif;
+    font-size: 45px;
+    position:absolute;
+    margin:0;
+    //top:0;
+    color:white;
+    opacity:0;
+    z-index:4;
+}
+.projects li:hover h2{
+    opacity:1;
+}
+.projects img:hover{
+    filter:blur(4px) brightness(60%);
+}

@@ -28,3 +28,7 @@ function hoverEffect(selected) {
 
     selected.style.color = "white";
 }
+
+function hoverOverProject(selected){
+    selected.style.background = "black";
+}
