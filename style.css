@@ -1,5 +1,9 @@
 /*Version 1.1 */
 
+* {
+    box-sizing: border-box;
+}
+
 @font-face {
     font-family: 'Proxima Nova';
     src: url('Mark Simonson - Proxima Nova Alt Regular-webfont.ttf') format('truetype');
@@ -11,7 +15,6 @@
     src:url('Mark Simonson - Proxima Nova Alt Bold-webfont.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
-
 }
 
 body{
@@ -102,6 +105,7 @@ body{
     //border:5px solid red;
     margin-left: 2%;
     margin-right: 2%;
+
 }
 
 #nav .LastItem{
@@ -113,6 +117,7 @@ body{
     //border:5px solid blue;
     //color:white;
     text-decoration: none;
+    transition: 0.3s;
 }
 
 
@@ -189,7 +194,7 @@ video{
     justify-content: center;
     //border:5px solid black;
     color: white;
-	font-size:85px;
+	font-size:65px;
 	margin:0;
 }
 
@@ -205,7 +210,8 @@ video{
 .about-me {
     position: relative;
     display:inline-block;
-    width:100vw;
+    float:left;
+    width:99vw;
     max-width:3000px;
     top:0;
     padding:0;
@@ -216,8 +222,9 @@ video{
 }
 
 .about-me h1{
+
     font-family:Garamond, Georgia, serif;
-    font-size:50px;
+    font-size:45px;
     font-weight:bold;
     margin:20px;
     //display:inline-block;
@@ -225,7 +232,7 @@ video{
 }
 .about-me p {
     font-family: 'Proxima Nova';
-    font-size: 30px;
+    font-size: 23px;
     font-weight: 300;
     margin: 0 20px 40px;
     max-width:85vw;
@@ -236,8 +243,10 @@ video{
 .skills-accomplishment {
     position: relative;
     display:inline-block;
+    float:left;
     width:100vw;
     max-width:3000px;
+    //border:5px solid black;
     top:0;
     padding:0;
     margin:0;
@@ -264,7 +273,7 @@ video{
 
 .skills-accomplishment li{
     text-align: center;
-    max-width: 50%;
+    max-width: 50%; /*this is for flex box to wrap around properly*/
     //border:5px solid blue;
     margin-left: 0;
     margin-right: 0;
@@ -272,7 +281,10 @@ video{
 .projects{
     background: #d6d6d6;
     display:inline-block;
-    width:100%;
+    float:left;
+    width:100vw;
+    max-width:3000px;
+    //border:5px solid blue;
 }
 
 .projects h1{
@@ -285,40 +297,76 @@ video{
 .projects ul{
     list-style: none;
     display:flex;
+    width:100vw;
+    max-width:100%;
     justify-content:center;
     padding:0;
+    //border:5px solid red;
 
 }
 .projects .image-resize{
-    width: 480px;
-    height: 380px;
-
+    width: 380px;
+    height: 280px;
+    transition: .3s;
+    //border:5px solid red;
+    //max-width:100%;
+    //height:100%;
 
 }
-.projects li{
+.projects .image-container{
     position:relative;
-    display:flex;
+    display:flex;           /*flex is necessary for the text to be in the middle*/
     justify-content: center;
     align-items: center;
     //border:5px solid blue;
-    padding:1%;
-    width:480px;
-    margin:0;
+    padding:0;
+    margin:1%;
+    //width:480px;
     z-index:0;
 }
-.projects h2{
+
+.viewcontent{
+    position:absolute;
+    //border:5px solid blue;
+    z-index:5;
+}
+
+button {
+    background:none;
+    position: relative;
+    color: white;
+    width:180px;
+    height:50px;
+    margin-top:5%;
+    border: 1px solid white;
+    font-size:18px;
+    border-radius: 4px;
+    transition:.3s;
+    opacity: 0;
+}
+
+.image-container h2{
     font-family:Garamond, Georgia, serif;
     font-size: 45px;
-    position:absolute;
+    position:relative;
     margin:0;
     //top:0;
     color:white;
     opacity:0;
+    transition: .3s;
     z-index:4;
 }
-.projects li:hover h2{
+
+.image-container:hover :not(img){
     opacity:1;
 }
-.projects img:hover{
+.image-container:hover img{
     filter:blur(4px) brightness(60%);
+    box-shadow:0 0 16px cyan;
 }
+.image-container button:hover{
+    background: white;
+    color:black;
+}
+
+

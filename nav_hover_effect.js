@@ -8,6 +8,7 @@ function hoverEffect(selected) {
     var resume = document.getElementById("resume");
 
 
+
     if(home.style.color == "white")
         home.style.color = "grey";
     else if(home.style.color == "grey")
