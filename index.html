@@ -1,10 +1,11 @@
-<!--Version 1.1 -->
+<!--/*Version 1.2  Added Button and Footer */ -->
 <!DOCTYPE html>
 <html>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<head>
 		<title>Khang Lam</title>
 		<link rel="stylesheet" type="text/css" href="style.css" />
-
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
 		<script src="nav_hover_effect.js"></script>
 	</head>
 
@@ -22,24 +23,24 @@
 					<div id="nav">
 						<ul>
 							<li>
-								<a style="color:white;"  id="home"
+								<a id="home"
 								   onmouseover="hoverEffect(this)" onmouseleave="hoverEffect(this)"
 								   href="index.html">HOME
 								</a>
 							</li>
 							<li>
-								<a style="color:white;" id="about"
+								<a  id="about"
 								   onmouseover="hoverEffect(this)" onmouseleave="hoverEffect(this)"
-								   href="">ABOUT
+								   href="#about-me">ABOUT
 								</a>
 							</li>
 							<li>
-								<a style="color:white;" id="contact"
+								<a id="portfolio"
 								   onmouseover="hoverEffect(this)" onmouseleave="hoverEffect(this)"
-								   href="">CONTACT</a>
+								   href="#projects">PORTFOLIO</a>
 							</li>
 							<li class="LastItem">
-								<a style="color:white;" id="resume"
+								<a  id="resume"
 								   onmouseover="hoverEffect(this)" onmouseleave="hoverEffect(this)"
 								   href="resume.html">RESUME
 								</a>
@@ -53,16 +54,16 @@
 						<p> FEEL FREE TO LOOK AROUND </p>
 					</div>
 				</div>
-			</div><!--No whitespace here
-			--><div class="about-me">
+			</div>
+			<div id="about-me">
 				<h1>About me</h1>
 				<p> Hi, I'm Khang Lam. I am now an alumni at California Polytechnic Pomona. Throughout my years, I've surrounded
 					myself mostly with back-end software development, namely java and C++. During my time as an undergraduate student
 					I've grown to become more and more passionate about the software industry and admire its potential for the future.
-					My goal is to be happy with who I am but NEVER satisfied with what I know. Please click here to check out my past projects.
+					My goal is to be happy with who I am but NEVER satisfied with what I know.
 				</p>
 			</div>
-			<div class="skills-accomplishment">
+			<div id="skills-accomplishment">
 				<h1> Skills & Endorsement</h1> <hr>
 				<ul>
 					<li>Java</li>
@@ -88,7 +89,7 @@
 					<li>XCode - OpenCV & Tesseract</li>
 				</ul>
 			</div>
-			<div class="projects">
+			<div id="projects">
 				<h1>My latest projects</h1>
 				<ul>
 					<li class="image-container"><img class="image-resize" src="sudoku.jpg" >
@@ -109,8 +110,33 @@
 						</div>
 					</li>
 				</ul>
+				<a href="https://github.com/khanglam">
+					<button class="btn">View More Projects &rarr;</button></a>
 			</div>
-		</div>
+
+			<footer id="footer">
+				<div class="footer-container">
+					<h1> Stay connected with me.</h1>
+					<ul>
+						<li>
+							<a href="https://www.instagram.com/khangtlam/"><i class="fab fa-instagram"></i></a>
+						</li>
+						<li>
+							<a href="https://www.facebook.com/khanglamla"><i class="fab fa-facebook-f"></i></a>
+						</li>
+						<li>
+							<a href="https://www.linkedin.com/in/khang-lam-82889715a/"><i class="fab fa-linkedin-in"></i></a>
+						</li>
+						<li>
+							<a href="mailto:khangtlam@gmail.com"><i class="fab fa-google-plus-g"></i></a>
+						</li>
+					</ul>
+					<p> Copyright Khang Lam &copy; 2018. All rights reserved. </p>
+				</div>
+			</footer>
+		</div> <!-- full container's div -->
+
+
 	</body>
 
 </html>
