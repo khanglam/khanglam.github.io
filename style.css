@@ -87,6 +87,7 @@ body{
 .footer-container p{ /* Copy right message*/
     font-family:Garamond, Georgia, serif;
     margin:0;
+    margin-bottom: 1%;
     color: white;
     font-size:25px;
     display:block;
