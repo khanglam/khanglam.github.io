@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap");
 
 .container {
   display: flex;
@@ -11,7 +11,7 @@
 }
 .background {
   font-size: 4rem;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   line-height: 1.1;
   height: 100%;
   width: 100%;
@@ -61,7 +61,7 @@
 
 .bio::before,
 .bio::after {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   right: 0;

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400&display=swap");
 
 *,
 *::before,
@@ -107,16 +107,51 @@
   background: rgba(21, 114, 182, 0.25);
 }
 
-.replace {
-  border: 2px solid rgb(21, 114, 182);
+.Swift {
+  border: 2px solid rgb(21, 0, 255);
 }
-.replace:hover {
-  background: rgba(21, 114, 182, 0.25);
+.Swift:hover {
+  background: rgba(38, 154, 238, 0.25);
 }
 
-.replace {
-  border: 2px solid rgb(21, 114, 182);
+.Objective-C\+\+ {
+  border: 2px solid rgb(82, 64, 67);
 }
-.replace:hover {
-  background: rgba(21, 114, 182, 0.25);
+.Objective-C\+\+:hover {
+  background: rgba(53, 104, 141, 0.25);
+}
+
+.XCode {
+  border: 2px solid rgb(255, 255, 255);
+}
+.XCode:hover {
+  background: rgba(194, 194, 194, 0.25);
+}
+
+.OpenCV {
+  border: 2px solid rgb(178, 171, 248);
+}
+.OpenCV:hover {
+  background: rgba(142, 245, 204, 0.548);
+}
+
+.next {
+  border: 2px solid rgb(217, 255, 0);
+}
+.next:hover {
+  background: rgba(125, 161, 20, 0.25);
+}
+
+.Algorithm {
+  border: 2px solid rgb(46, 249, 27);
+}
+.Algorithm:hover {
+  background: rgba(8, 197, 102, 0.25);
+}
+
+.Java {
+  border: 2px solid rgb(255, 128, 0);
+}
+.Java:hover {
+  background: rgba(128, 99, 3, 0.25);
 }
