@@ -8,33 +8,28 @@ const explorerItems = [
   {
     name: 'home.jsx',
     path: '/',
-    icon: 'react_icon.svg',
+    icon: 'react_icon.svg'
   },
   {
     name: 'about.html',
     path: '/about',
-    icon: 'html_icon.svg',
+    icon: 'html_icon.svg'
   },
   {
-    name: 'contact.css',
+    name: 'contact.json',
     path: '/contact',
-    icon: 'css_icon.svg',
+    icon: 'json_icon.svg'
   },
   {
     name: 'projects.js',
     path: '/projects',
-    icon: 'js_icon.svg',
-  },
-  {
-    name: 'articles.json',
-    path: '/articles',
-    icon: 'json_icon.svg',
+    icon: 'js_icon.svg'
   },
   {
     name: 'github.md',
     path: '/github',
-    icon: 'markdown_icon.svg',
-  },
+    icon: 'markdown_icon.svg'
+  }
 ];
 
 const Explorer = () => {
@@ -45,13 +40,13 @@ const Explorer = () => {
       <p className={styles.title}>Explorer</p>
       <div>
         <input
-          type="checkbox"
+          type='checkbox'
           className={styles.checkbox}
-          id="portfolio-checkbox"
+          id='portfolio-checkbox'
           checked={portfolioOpen}
           onChange={() => setPortfolioOpen(!portfolioOpen)}
         />
-        <label htmlFor="portfolio-checkbox" className={styles.heading}>
+        <label htmlFor='portfolio-checkbox' className={styles.heading}>
           <ChevronRight
             className={styles.chevron}
             style={portfolioOpen ? { transform: 'rotate(90deg)' } : {}}
