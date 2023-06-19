@@ -6,10 +6,6 @@
   /* border: 2px solid blue; */
 }
 
-.container > div:first-child {
-  border-right: 1px solid var(--accent-color);
-}
-
 .container h1 {
   margin-bottom: 2rem;
   font-size: 1.5rem;
