@@ -35,27 +35,25 @@
     "id": 3,
     "name": "Sudoku Solver",
     "image": "https://imgur.com/hn3jmvh.jpg",
-    "description": "iOS Application Interface for solving the sudoku via OpenCV and machine learning",
+    "description": "iOS Application Interface for solving the Sudoku via OpenCV and machine learning",
     "tags": ["Swift", "Objective-C++", "XCode", "OCR", "OpenCV"],
-    "source_code": "https://github.com/itsnitinr/healthyways",
-    "demo": "https://healthyways.herokuapp.com/"
+    "source_code": "https://github.com/khanglam/Sudoku-Solver"
   },
   {
     "id": 4,
     "name": "VSCode Portfolio",
     "image": "https://imgur.com/bnzaXG4.jpg",
     "description": "VSCode themed portfolio",
-    "tags": ["React", "Api", "next", "JavaScript", "css-modules"],
-    "source_code": "https://github.com/itsnitinr/vscode-portfolio",
-    "demo": "http://vscode-portfolio.vercel.app/"
+    "tags": ["React", "Api", "next", "JavaScript", "CSS-Modules"],
+    "source_code": "https://github.com/khanglam/khanglam.github.io",
+    "demo": "https://khanglam-github-io.vercel.app/"
   },
   {
     "id": 5,
     "name": "N-Queens",
-    "image": "https://imgur.com/PWCz5B6.png",
+    "image": "https://imgur.com/dHtXplZ.png",
     "description": "Simple Java Project to solve N-Queens with Steep Hill and Genetic Algorithm",
     "tags": ["Java", "Algorithm"],
-    "source_code": "https://github.com/itsnitinr/vscode-portfolio",
-    "demo": "http://vscode-portfolio.vercel.app/"
+    "source_code": "https://github.com/khanglam/N-Queens"
   }
 ]
