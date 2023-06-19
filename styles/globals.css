@@ -72,10 +72,11 @@
   background: rgba(255, 65, 84, 0.25);
 }
 
-.css-modules {
+.CSS-Modules {
   border: 2px solid rgb(21, 114, 182);
 }
-.css-modules:hover {
+
+.CSS-Modules:hover {
   background: rgba(21, 114, 182, 0.25);
 }
 
