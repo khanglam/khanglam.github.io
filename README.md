@@ -1,47 +1,19 @@
-# vscode-portfolio
+# Portfolio
 
-A Visual Studio Code themed developer portfolio website built with Next.js and deployed on Vercel.
+This repository contains my personal portfolio website showcasing my skills, projects, and experiences. The portfolio is designed to provide an overview of my background and capabilities as a [Your Profession] and to showcase my work in the field.
 
+## Features
 
-## Features Roadmap
+- **About Me:** Learn more about my professional background, skills, and interests.
+- **Projects:** Explore a selection of my notable projects, including descriptions, screenshots, and links to live demos or repositories.
+- **Skills:** Discover the technical skills and expertise I have acquired throughout my career.
+- **Experience:** Get an overview of my work experience, including roles, responsibilities, and achievements.
+- **Contact:** Find various ways to get in touch with me, such as through email, social media, or a contact form.
 
-- [ ] Themes and customizations
-  - [x] GitHub Dark (default)
-  - [ ] One Dark Pro
-  - [x] Dracula
-  - [x] Ayu
-  - [x] Nord
-- [ ] Interactive custom terminal
+## Technologies Used
 
-For other features and themes suggestions, please open an issue.
-
-## Environment Variables
-
-For fetching your articles from dev.to, create an `.env.local` file inside the project directory. Check the `.env.local.example` file for more information.
-
-## Running Development Server
-
-```bash
-npm run dev
-# or
-yarn dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-All VSCode related components can be found in the `components` folder. To change the content of the portfolio, check out the `pages` folder. To add or remove pages, modify `components/Sidebar.jsx` and `components/Tabsbar.jsx`.
-
-## Next.js Resources
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/)
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- HTML5
+- Module CSS
+- JavaScript
+- React.js
+- Next.js
