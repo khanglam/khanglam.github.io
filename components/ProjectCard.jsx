@@ -1,5 +1,5 @@
-import Image from 'next/image';
-import styles from '../styles/ProjectCard.module.css';
+import Image from "next/image";
+import styles from "../styles/ProjectCard.module.css";
 
 const ProjectCard = ({ project }) => {
   return (
@@ -10,7 +10,7 @@ const ProjectCard = ({ project }) => {
         width={600}
         alt={project.name}
         style={{
-          borderRadius: '20px 20px 0 0'
+          borderRadius: "20px 20px 0 0",
         }}
       />
       <div className={styles.content}>
@@ -28,21 +28,23 @@ const ProjectCard = ({ project }) => {
         {project.source_code && (
           <a
             href={project.source_code}
-            target='_blank'
-            rel='noopener noreferrer'
+            target="_blank"
+            rel="noopener noreferrer"
             className={styles.underline}
           >
             Repo
           </a>
         )}
-        <a
-          href={project.demo}
-          target='_blank'
-          rel='noopener noreferrer'
-          className={styles.underline}
-        >
-          Live
-        </a>
+        {project.demo && (
+          <a
+            href={project.demo}
+            target="_blank"
+            rel="noopener noreferrer"
+            className={styles.underline}
+          >
+            Live
+          </a>
+        )}
       </div>
     </div>
   );
