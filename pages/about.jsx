@@ -35,7 +35,7 @@ const AboutPage = () => {
             <a
               href='./KhangLam.pdf'
               download='KhangLam.pdf'
-              style={{ color: 'var(--accent-color)' }} // Change color to theme color
+              style={{ color: 'var(--accent-color)' }}
             >
               Download
             </a>
