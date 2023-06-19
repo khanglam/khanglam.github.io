@@ -1,0 +1,61 @@
+[
+  {
+    "id": 1,
+    "name": "Snake Game AI",
+    "image": "https://imgur.com/Jj7vmqn.jpg",
+    "description": "Try out various methods of Reinforcement Learning to automate classic Snake Game",
+    "tags": [
+      "Python",
+      "Machine-Learning",
+      "Reinforcement-Learning",
+      "Tensorflow",
+      "OCR"
+    ],
+    "source_code": "https://github.com/khanglam/SnakeGameAI"
+  },
+  {
+    "id": 2,
+    "name": "Youtube2Spotify",
+    "image": "https://imgur.com/ACJqWuX.jpg",
+    "description": "Convert your favorite YouTube playlists into Spotify",
+    "tags": [
+      "React",
+      "Node",
+      "JavaScript",
+      "PostgresDB",
+      "Flask",
+      "FullStack",
+      "Api",
+      "Oauth2"
+    ],
+    "source_code": "https://github.com/khanglam/Youtube2Spotify",
+    "demo": "https://www.youtube2spotify.site/"
+  },
+  {
+    "id": 3,
+    "name": "Sudoku Solver",
+    "image": "https://imgur.com/hn3jmvh.jpg",
+    "description": "iOS Application Interface for solving the sudoku via OpenCV and machine learning",
+    "tags": ["Swift", "Objective-C++", "XCode", "OCR", "OpenCV"],
+    "source_code": "https://github.com/itsnitinr/healthyways",
+    "demo": "https://healthyways.herokuapp.com/"
+  },
+  {
+    "id": 4,
+    "name": "VSCode Portfolio",
+    "image": "https://imgur.com/bnzaXG4.jpg",
+    "description": "VSCode themed portfolio",
+    "tags": ["React", "Api", "next", "JavaScript", "css-modules"],
+    "source_code": "https://github.com/itsnitinr/vscode-portfolio",
+    "demo": "http://vscode-portfolio.vercel.app/"
+  },
+  {
+    "id": 5,
+    "name": "N-Queens",
+    "image": "https://imgur.com/PWCz5B6.png",
+    "description": "Simple Java Project to solve N-Queens with Steep Hill and Genetic Algorithm",
+    "tags": ["Java", "Algorithm"],
+    "source_code": "https://github.com/itsnitinr/vscode-portfolio",
+    "demo": "http://vscode-portfolio.vercel.app/"
+  }
+]

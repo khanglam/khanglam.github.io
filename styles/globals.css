@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400&display=swap");
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Tags */
+.React {
+  border: 0.1rem solid rgb(97, 218, 251);
+}
+.React:hover {
+  background: rgba(97, 218, 251, 0.25);
+}
+
+.Node {
+  border: 0.1rem solid rgb(131, 205, 41);
+}
+.Node:hover {
+  background: rgba(131, 205, 41, 0.25);
+}
+
+.Machine-Learning {
+  border: 0.1rem solid rgb(118, 74, 188);
+}
+.Machine-Learning:hover {
+  background: rgba(118, 74, 188, 0.25);
+}
+
+.Python {
+  border: 0.1rem solid rgb(82, 143, 240);
+}
+.Python:hover {
+  background: rgba(82, 143, 240, 0.25);
+}
+
+.Reinforcement-Learning {
+  border: 0.1rem solid rgb(196, 13, 13);
+}
+.Reinforcement-Learning:hover {
+  background: rgba(172, 4, 4, 0.25);
+}
+
+.Tensorflow {
+  border: 0.1rem solid rgb(0, 209, 178);
+}
+.Tensorflow:hover {
+  background: rgb(0, 209, 178, 0.25);
+}
+
+.OCR {
+  border: 2px solid rgb(0, 112, 243);
+}
+.OCR:hover {
+  background: rgba(0, 112, 243, 0.25);
+}
+
+.Flask {
+  border: 2px solid rgb(6, 182, 212);
+}
+.Flask:hover {
+  background: rgba(6, 182, 212, 0.25);
+}
+
+.JavaScript {
+  border: 2px solid rgb(255, 65, 84);
+}
+.JavaScript:hover {
+  background: rgba(255, 65, 84, 0.25);
+}
+
+.css-modules {
+  border: 2px solid rgb(21, 114, 182);
+}
+.css-modules:hover {
+  background: rgba(21, 114, 182, 0.25);
+}
+
+.PostgresDB {
+  border: 2px solid rgb(255, 187, 0);
+}
+.PostgresDB:hover {
+  background: rgba(97, 60, 5, 0.25);
+}
+
+.FullStack {
+  border: 2px solid rgb(255, 0, 234);
+}
+.FullStack:hover {
+  background: rgba(94, 3, 81, 0.25);
+}
+
+.Api {
+  border: 2px solid rgb(100, 250, 54);
+}
+.Api:hover {
+  background: rgba(31, 145, 56, 0.25);
+}
+
+.Oauth2 {
+  border: 2px solid rgb(21, 114, 182);
+}
+.Oauth2:hover {
+  background: rgba(21, 114, 182, 0.25);
+}
+
+.Swift {
+  border: 2px solid rgb(21, 0, 255);
+}
+.Swift:hover {
+  background: rgba(38, 154, 238, 0.25);
+}
+
+.Objective-C\+\+ {
+  border: 2px solid rgb(82, 64, 67);
+}
+.Objective-C\+\+:hover {
+  background: rgba(53, 104, 141, 0.25);
+}
+
+.XCode {
+  border: 2px solid rgb(255, 255, 255);
+}
+.XCode:hover {
+  background: rgba(194, 194, 194, 0.25);
+}
+
+.OpenCV {
+  border: 2px solid rgb(178, 171, 248);
+}
+.OpenCV:hover {
+  background: rgba(142, 245, 204, 0.548);
+}
+
+.next {
+  border: 2px solid rgb(217, 255, 0);
+}
+.next:hover {
+  background: rgba(125, 161, 20, 0.25);
+}
+
+.Algorithm {
+  border: 2px solid rgb(46, 249, 27);
+}
+.Algorithm:hover {
+  background: rgba(8, 197, 102, 0.25);
+}
+
+.Java {
+  border: 2px solid rgb(255, 128, 0);
+}
+.Java:hover {
+  background: rgba(128, 99, 3, 0.25);
+}
