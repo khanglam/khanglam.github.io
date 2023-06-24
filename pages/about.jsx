@@ -27,7 +27,7 @@ const AboutPage = () => {
             Software QA Engineer II at Mercury Insurance Company. I thrive on
             conquering bugs and forging exciting projects in the realm of
             software development. When I'm not immersed in coding, I enjoy
-            connecting with friends and diving into the captivating realm of
+            connecting with friends or diving into the captivating world of
             video games. Let's connect!
           </h3>
           <h3>
@@ -35,7 +35,7 @@ const AboutPage = () => {
             <a
               href='./KhangLam.pdf'
               download='KhangLam.pdf'
-              style={{ color: 'var(--accent-color)' }} // Change color to theme color
+              style={{ color: 'var(--accent-color)' }}
             >
               Download
             </a>
