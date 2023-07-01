@@ -1,7 +1,7 @@
 
 # Personal Portfolio
 
-A Visual Studio Code themed developer portfolio showcasing my skills, projects, and experience as a Software Developer enthusiast. It provides an overview of my work and serves as a platform for potential employers, or collaborators to get to know me better.
+A Visual Studio Code themed portfolio showcasing my skills, projects, and experience as a Software Developer enthusiast. It provides an overview of my work and serves as a platform for potential employers, or collaborators to get to know me better.
 
 ## Features
 
