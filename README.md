@@ -5,7 +5,6 @@ A Visual Studio Code themed portfolio showcasing my skills, projects, and experi
 ## Features
 
 ## Technologies Used
-
 - HTML5
 - CSS3
 - JavaScript
