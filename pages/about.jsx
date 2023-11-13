@@ -33,8 +33,8 @@ const AboutPage = () => {
           <h3>
             Resume{'  ('}
             <a
-              href='./KhangLam.pdf'
-              download='KhangLam.pdf'
+              href='./Khang Lam.pdf'
+              download='Khang Lam.pdf'
               style={{ color: 'var(--accent-color)' }}
             >
               Download
