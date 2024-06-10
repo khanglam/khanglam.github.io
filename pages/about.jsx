@@ -23,18 +23,13 @@ const AboutPage = () => {
           }}
         >
           <h3>
-            Hello! I'm a passionate Software/AI Enthusiast and currently a
-            Software QA Engineer II at Mercury Insurance Company. I thrive on
-            conquering bugs and forging exciting projects in the realm of
-            software development. When I'm not immersed in coding, I enjoy
-            connecting with friends or diving into the captivating world of
-            video games. Let's connect!
+Passionate and skilled Software Developer with a strong foundation in Java, Python, and JavaScript, and over 5 years of experience in software automation. Demonstrated expertise in automated testing and agile methodologies, with hands-on full-stack development experience through personal and academic projects. Proven track record of optimizing processes and enhancing code quality. Seeking to leverage my technical skills and project experience to contribute to innovative software development projects at a dynamic tech company.
           </h3>
           <h3>
             Resume{'  ('}
             <a
-              href='./Khang Lam.pdf'
-              download='Khang Lam.pdf'
+              href='./Khang-Lam.pdf'
+              download='Khang-Lam.pdf'
               style={{ color: 'var(--accent-color)' }}
             >
               Download
