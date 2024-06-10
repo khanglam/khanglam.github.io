@@ -14,7 +14,7 @@ const AboutPage = () => {
         <div
           style={{
             display: 'flex',
-            textAlign: 'center',
+            //textAlign: 'center',
             justifyContent: 'center',
             flexDirection: 'column',
             gap: '20px',
