@@ -35,19 +35,18 @@ I'm on a mission to drive innovation and deliver excellence in every project I u
 
 <h2>Let's Connect!</h2>
 Are you in search of a passionate Software Developer with a proven track record of success? Look no further—I'm here to bring value to your team. Reach out today, and let's explore how we can collaborate on your next groundbreaking project.          
-          <div style={{ textAlign: 'center' }}>
-            <h3>
-              Resume{' ('}
-              <a
-                href='./Khang-Lam.pdf'
-                download='Khang-Lam.pdf'
-                style={{ color: 'var(--accent-color)' }}
-              >
-                Download
-              </a>
-              {')'}
-            </h3>
-          </div>
+        <div style={{ textAlign: 'center' }}>
+          <h3>
+            Resume{' ('}
+            <a
+              href='./Khang-Lam.pdf'
+              download='Khang-Lam.pdf'
+              style={{ color: 'var(--accent-color)' }}
+            >
+              Download
+            </a>
+            {')'}
+          </h3>
         </div>
       </div>
     </>
